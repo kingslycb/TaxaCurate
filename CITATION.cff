@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "TaxaCurate: post-taxonomic-assignment curation of COI metabarcoding results against WoRMS"
+title: "TaxaCurate: post-taxonomic-assignment curation of COI metabarcoding results"
 abstract: >-
   TaxaCurate is an R/Shiny application that curates taxonomic assignments
   from COI metabarcoding. It resolves BLAST, BOLD and MZG assignments to WoRMS
