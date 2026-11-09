@@ -10,6 +10,7 @@ abstract: >-
   and North Sea occurrence evidence (OBIS, GBIF and WoRMS distribution text).
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.24080506
 date-released: 2026-11-09
 license: AGPL-3.0-or-later
 authors:
@@ -31,6 +32,13 @@ authors:
     given-names: Anne F.
     orcid: "https://orcid.org/0000-0002-6556-7898"
     affiliation: Thünen Institute of Sea Fisheries, Bremerhaven, Germany
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24080506
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.24080507
+    description: Version v1.0.0
 repository-code: "https://github.com/kingslycb/TaxaCurate"
 keywords:
   - metabarcoding

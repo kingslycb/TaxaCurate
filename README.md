@@ -1,5 +1,7 @@
 # TaxaCurate — post-taxonomic-assignment curation of COI metabarcoding results (R/Shiny)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24080506.svg)](https://doi.org/10.5281/zenodo.24080506)
+
 TaxaCurate is a click-through R/Shiny app for the CREATE WP2.3 pipeline that takes raw
 taxonomic assignments from COI metabarcoding (BLAST, BOLD, MZG) through to a curated,
 ecologically annotated species table:
@@ -93,11 +95,15 @@ Before relying on a result, run the whole pipeline on a dataset you know (the bu
 
 ## Licence and citation
 
-GNU Affero General Public License v3 or later — see `LICENSE`, `COPYRIGHT` and `COPYING.txt`.
+GNU Affero General Public License v3 or later — see `LICENSE`, `COPYRIGHT` and `COPYING.txt`. To cite this software:
 
-Authors: Beng, K. C., Laakmann, S., & Sell, A. F.
+Beng, K. C., Laakmann, S., & Sell, A. F. (2026). _TaxaCurate: post-taxonomic-assignment curation of COI
+metabarcoding results_ (Version v1.0.0) \[Computer software\]. Zenodo.
+[https://doi.org/10.5281/zenodo.24080507](https://doi.org/10.5281/zenodo.24080507)
 
-See also `CITATION.cff` (GitHub's "Cite this repository").
+The DOI above is for version v1.0.0. The DOI
+[https://doi.org/10.5281/zenodo.24080506](https://doi.org/10.5281/zenodo.24080506) always resolves to the
+latest version. See also `CITATION.cff`.
 
 ## Example dataset
 
