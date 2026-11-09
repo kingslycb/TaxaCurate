@@ -1,0 +1,42 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+renv/library/
+renv/local/
+renv/cellar/
+renv/sandbox/
+renv/staging/
+
+# Shiny / temp
+rsconnect/
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*Zone.Identifier
+
+# Runtime caches (hold WoRMS / OBIS / GBIF-derived data; rebuilt by the app)
+cache/
+_cache/
+*_checkpoint.rds
+*_checkpoint_repeat.rds
+
+local_only/
+results/
+
+# The trait database is not redistributed; see README ("MarineSpeciesTraits database")
+marineSpeciesTraits.RData
+config/marineSpeciesTraits.RData
+data/marineSpeciesTraits.RData
+
+# No logos or images are distributed with the source code; the app shows organisation names as text
+# when they are missing (see README, "Logos")
+www/*.png
+www/*.svg
+www/*.jpg
+www/*.jpeg

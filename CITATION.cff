@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TaxaCurate: post-taxonomic-assignment curation of COI metabarcoding results against WoRMS"
+abstract: >-
+  TaxaCurate is an R/Shiny application that curates taxonomic assignments
+  from COI metabarcoding. It resolves BLAST, BOLD and MZG assignments to WoRMS
+  AphiaIDs, compares the databases per ASV and taxonomic level, assembles a
+  final ASV table, removes contaminants, aggregates to taxa and enriches
+  species with WoRMS taxonomy, marine status, distribution, ecological traits
+  and North Sea occurrence evidence (OBIS, GBIF and WoRMS distribution text).
+type: software
+version: 1.0.0
+date-released: 2026-11-09
+license: AGPL-3.0-or-later
+authors:
+  - family-names: Beng
+    given-names: Kingsly C.
+    email: kingsly-chuo.beng@thuenen.de
+    orcid: "https://orcid.org/0000-0002-0745-7930"
+    affiliation: >-
+      Thünen Institute of Sea Fisheries, Bremerhaven, Germany;
+      Helmholtz Institute for Functional Marine Biodiversity at the University of Oldenburg (HIFMB), Oldenburg, Germany;
+      Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), Bremerhaven, Germany
+  - family-names: Laakmann
+    given-names: Silke
+    orcid: "https://orcid.org/0000-0003-3273-7907"
+    affiliation: >-
+      Helmholtz Institute for Functional Marine Biodiversity at the University of Oldenburg (HIFMB), Oldenburg, Germany;
+      Alfred Wegener Institute, Helmholtz Centre for Polar and Marine Research (AWI), Bremerhaven, Germany
+  - family-names: Sell
+    given-names: Anne F.
+    orcid: "https://orcid.org/0000-0002-6556-7898"
+    affiliation: Thünen Institute of Sea Fisheries, Bremerhaven, Germany
+repository-code: "https://github.com/kingslycb/TaxaCurate"
+keywords:
+  - metabarcoding
+  - eDNA
+  - COI
+  - taxonomy
+  - WoRMS
+  - North Sea
+  - R Shiny
